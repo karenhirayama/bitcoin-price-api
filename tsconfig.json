@@ -1,0 +1,11 @@
+{
+    "complerOptions": {
+        "forceConsistentCasingInFileNames": true, 
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "outDir": "./source",
+        "target": "es6",
+        "skipLibCheck": true,
+        "strict": true
+    }
+}

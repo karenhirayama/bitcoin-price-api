@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import Bitcoin from '../models/bitcoin';
 
 export const getHistoricalPrice = async (req, res) => {
+    const { date } = req.query;
     try {
         const historicalPrice = await Bitcoin.find();
         res.status(200).json(historicalPrice);
@@ -12,7 +13,7 @@ export const getHistoricalPrice = async (req, res) => {
 };
 
 export const getProfit = async (req, res) => {
-    const {initial_date, final_date, investiment_value} = req.query;
+    const { initial_date, final_date, investiment_value } = req.query;
     try {
         const profit = 0;
         res.status(200).json(profit);

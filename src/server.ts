@@ -10,9 +10,9 @@ const app = express();
 
 dotenv.config();
 
-app.use(bodyParser.json({ limit: "30mb", extended: true } as any));
-app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
-app.use(cors());
+/* app.use(bodyParser.json({ limit: "31mb", extended: true } as any));
+app.use(bodyParser.urlencoded({ limit: "31mb", extended: true }));
+app.use(cors()) */;
 
 app.use('/bitcoin', bitcoin_routes);
 

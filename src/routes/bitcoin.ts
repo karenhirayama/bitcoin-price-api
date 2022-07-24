@@ -1,9 +1,12 @@
-import express from 'express';
+import { Router, Request, Response } from 'express';
 import { getHistoricalPrice, getProfit } from '../controllers/bitcoin';
+import multer from 'multer';
 
-const router = express.Router();
+const router = Router();
 
-router.get('/bitcoin', getHistoricalPrice);
+const multerConfig = multer();
+
+router.post('/', multerConfig.single('file'), getHistoricalPrice)
 router.get('/rentability', getProfit);
 
 export default router;

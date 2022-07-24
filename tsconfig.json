@@ -1,11 +1,12 @@
 {
-    "complerOptions": {
-        "forceConsistentCasingInFileNames": true, 
-        "module": "commonjs",
-        "esModuleInterop": true,
-        "outDir": "./source",
-        "target": "es6",
-        "skipLibCheck": true,
-        "strict": true
-    }
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "../../built/local/tsc.js",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

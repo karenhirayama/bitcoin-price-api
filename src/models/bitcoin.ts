@@ -1,12 +1,8 @@
 import mongoose from 'mongoose';
 
-const bitcoinSchema = mongoose.Schema({
-    date: {
-        type: Date,
-    },
-    coin: {
-        type: Number
-    }
+const bitcoinSchema = new mongoose.Schema({
+    date: String,
+    coin: String,
 })
 
 const Bitcoin = mongoose.model('Bitcoin', bitcoinSchema);

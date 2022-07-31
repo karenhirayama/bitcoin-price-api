@@ -1,0 +1,20 @@
+{
+  "name": "bitcoin-price-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenhirayama/bitcoin-price-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karenhirayama/bitcoin-price-api/issues"
+  },
+  "homepage": "https://github.com/karenhirayama/bitcoin-price-api#readme"
+}

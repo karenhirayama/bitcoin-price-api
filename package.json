@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/karenhirayama/bitcoin-price-api/issues"
   },
-  "homepage": "https://github.com/karenhirayama/bitcoin-price-api#readme"
+  "homepage": "https://github.com/karenhirayama/bitcoin-price-api#readme",
+  "dependencies": {
+    "mongoose": "^6.5.0",
+    "needle": "^3.1.0",
+    "nodemon": "^2.0.19"
+  }
 }

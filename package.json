@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/karenhirayama/bitcoin-price-api#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "mongoose": "^6.5.0",
     "needle": "^3.1.0",
     "nodemon": "^2.0.19"
